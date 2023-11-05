@@ -1,0 +1,67 @@
+.Achievies{
+    background-color: #fff;
+    text-align: center;
+}
+.Achievies .contan{
+    width: 60%;
+    margin: auto;
+    line-height: 2;
+    color: #3b3a64;
+}
+.Achievies .contan p{
+    font-size: 20px;
+}
+.Achievies .items .item{
+    display: flex;
+    margin: 2rem 0;
+}
+.Achievies .items .item .img{
+    background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-24.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 290px;
+    height: 55vh;
+
+}
+.Achievies .items .item .img.two{
+    background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-25.jpg);
+}
+.Achievies .items .item .img.three{
+    background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-11.jpg);
+}
+.Achievies .items .item .img.four{
+    background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-14.jpg);
+}
+.Achievies .items .item .text{
+    background-color: white;
+    border-radius: 5px;
+    height: 45vh;
+    margin: auto 0 auto -2rem;
+    width: 290px;
+    padding: 2rem;
+    text-align: left;
+    transition: all ease 0.4s;
+}
+.Achievies .items .item .text:hover{
+    margin-left: -3rem;
+}
+.Achievies .items .item .text h6{
+    color: #7fc19c;
+}
+.Achievies .items .item .text p{
+    color: #3b3a64;
+    font-size: 25px;
+}
+.Achievies .items .item .text span{
+    display: block;
+    color: #c40000;
+}
+@media only screen and (max-width: 900px){
+    .Achievies .contan{
+        width: 100%;
+    }
+    .Achievies .items .item,.Achievies .items{
+        display: block;
+    }
+}

@@ -1,0 +1,53 @@
+.Goals {
+  padding: 5rem;
+}
+.Goals .images .left {
+  background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-5.jpg);
+  background-position: top;
+  background-size: cover;
+  width: 35%;
+  height: 65vh;
+  margin-top: 5rem;
+  border-radius: 10px;
+  padding: 0;
+}
+.Goals .images .right {
+  padding: 0;
+  border-radius: 10px;
+  background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-3.jpg);
+  background-position: top;
+  background-size: cover;
+  width: 55%;
+  height: 70vh;
+}
+.Goals .images .lable{
+  margin-top: 50%;
+  border-top-right-radius: 10px;
+  width: 80%;
+  padding: 4rem;
+  background-color: white;
+}
+.Goals .images .lable p{
+  font-size: 18px;
+}
+.respons{
+  display: none;
+}
+@media only screen and (max-width: 490px) {
+  .Goals{
+    padding: 1rem;
+  }
+  .Goals .images{
+    display: block;
+  }
+  .Goals .images .left, .Goals .images .right{
+    width: 100%;
+    margin: 2rem 0;
+  }
+  .Goals .images .lable{
+    display: none;
+  }
+  .respons{
+    display: block;
+  }
+}

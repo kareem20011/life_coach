@@ -1,0 +1,52 @@
+.TistimonialsCard .text{
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+}
+.TistimonialsCard .text p{
+    font-size: 18px;
+}
+  .TistimonialsCard .Cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .TistimonialsCard .Cards .card{
+    padding: 10px;
+    box-shadow: 3px 3px 5px #a4a1a1;
+    width: 30%;
+    margin: 0.5rem;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 10px;
+    height: 60vh;
+    width: 360px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .TistimonialsCard .Cards img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+  }
+  .TistimonialsCard .Cards .title{
+    display: flex;
+      align-items: center;
+  }
+  .TistimonialsCard .Cards .title h1{
+    margin: 1rem;
+    font-size: 30px;
+  }
+  .TistimonialsCard .Cards i{
+    color: #f1642b;
+    display: inline-block !important;
+  }
+  .TistimonialsCard .Cards .title p{
+    font-size: 30px;
+  }
+  @media only screen and (max-width: 400px) {
+    .TistimonialsCard .text{
+        width: 100%;
+    }
+  }

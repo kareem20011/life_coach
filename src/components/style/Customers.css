@@ -1,0 +1,31 @@
+.Customers .bgFixed{
+    color: white;
+    background-color: rgba(15, 0, 31, 0.616);
+    width: 100%;
+    position: relative;
+}
+.Customers .bgFixed::before{
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: 100%;
+    background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/banner-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+.Customers .bgFixed .content{
+    text-align: center;
+    padding: 6rem;
+}
+.Customers .bgFixed .content h1{
+    margin: 2rem 0;
+}
+.Customers .bgFixed .content .nums{
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+.Customers .bgFixed .content .nums h1{
+    font-size: 80px;
+}

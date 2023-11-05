@@ -1,0 +1,46 @@
+#Home {
+    background-color: #ffffff;
+    margin-bottom: 5rem;
+  }
+  #Home .text {
+    color: #3b3a64;
+    padding: 8rem;
+  }
+  #Home h1 {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 54px;
+  }
+  #Home p {
+    font-size: 20px;
+  }
+  #Home .img {
+    background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/hero-1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* width: 100%; */
+    /* height: 100vh; */
+  }
+  #Home .btn {
+    background-color: #1a355b;
+    border: none;
+  }
+  #Home .btn:hover {
+    background-color: #f1642b;
+  }
+  @media only screen and (max-width: 991px) {
+    #Home .img {
+      height: 50vh;
+    }
+    #Home .text {
+      padding: 2rem;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    #Home .text {
+      padding: 2rem;
+    }
+    #Home h1 {
+      font-size: 40px;
+    }
+  }
+  

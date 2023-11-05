@@ -1,0 +1,47 @@
+#Testimonials {
+  background-color: #ffffff;
+}
+#Testimonials .text {
+  color: #3b3a64;
+  padding: 8rem;
+}
+#Testimonials .text h5{
+    color: #f1642b;
+}
+#Testimonials h1 {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 54px;
+}
+#Testimonials p {
+  font-size: 25px;
+}
+#Testimonials .img {
+  background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/hero-9.jpg);
+  background-position: top;
+  background-size: cover;
+  /* width: 100%; */
+  height: 80vh;
+}
+#Testimonials .btn {
+  background-color: #1a355b;
+  border: none;
+}
+#Testimonials .btn:hover {
+  background-color: #f1642b;
+}
+@media only screen and (max-width: 991px) {
+  #Testimonials .img {
+    height: 50vh;
+  }
+  #Testimonials .text {
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #Testimonials .text {
+    padding: 2rem;
+  }
+  #Testimonials h1 {
+    font-size: 40px;
+  }
+}

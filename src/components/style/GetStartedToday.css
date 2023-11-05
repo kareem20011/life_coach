@@ -1,0 +1,50 @@
+.GetStarted{
+    background-color: white;
+}
+.GetStarted .text{
+    padding: 5rem;
+    margin-top: 2rem;
+}
+.GetStarted .text .cont{
+    color: #48476f;
+}
+.GetStarted .text .cont button{
+    border: none;
+    background-color: #ff8a36;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: white;
+    transition: all ease 0.4s;
+}
+.GetStarted .text .cont button:hover{
+    background-color: #d74b14;
+}
+.GetStarted .imgs{
+    height: 85vh;
+    overflow: hidden;
+}
+.GetStarted .imgs .info{
+    border-radius: 10px;
+}
+.GetStarted .imgs .info.bg{
+    float: right;
+}
+.GetStarted .imgs .info.main{
+    position: relative;
+    top: -364px;
+}
+@media only screen and (max-width: 990px) {
+    .GetStarted .imgs .info.bg{
+        display: none;
+    }
+    .GetStarted .imgs .info.main{
+        position: initial;
+        margin: auto;
+        display: block;
+    }
+}
+@media only screen and (max-width: 490px){
+    .GetStarted .text{
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,87 @@
+@keyframes scrollbar {
+  to {
+    left: -400%;
+  }
+}
+footer {
+  color: #3b3a64;
+  padding: 5rem;
+}
+footer .head p {
+  font-size: 25px;
+  width: 30% ;
+  text-align: left !important;
+}
+footer button {
+  border: none;
+  padding: 1rem 2rem;
+  background-color: #3b3a64;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all ease 0.4s;
+}
+footer button:hover {
+  background-color: #4e4c72;
+}
+footer .cont {
+  margin-top: 3rem;
+}
+footer .scrollLinks {
+  white-space: nowrap;
+  border: 0.5px solid rgba(212, 212, 212, 0.671);
+  padding: 1rem 2rem;
+  overflow: hidden;
+}
+footer .bar {
+  position: relative;
+  left: 100%;
+  animation: scrollbar 30s infinite linear;
+}
+footer .bar:hover {
+  animation-play-state: paused;
+}
+
+footer .scrollLinks a {
+  margin: 0 2rem;
+  text-decoration: none;
+  color: #4e4c72;
+  transition: all ease 0.4s;
+}
+footer .scrollLinks a:hover {
+  color: #1c1c31;
+}
+footer .title {
+  background-color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+footer .links a {
+  display: block;
+  text-decoration: none;
+  color: #3b3a64;
+  margin-top: 0.5rem;
+}
+footer .links a i {
+  margin: 0 0.5rem;
+}
+footer p{
+  font-size: 13px;
+  margin-top: 3rem;
+}
+@media only screen and (max-width: 490px) {
+  footer p{
+    width: 100% !important;
+  }
+  footer{
+    padding: 2rem;
+  }
+  footer .links{
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 990px){
+  footer .head p{
+    width: 100%;
+  }
+}

@@ -1,0 +1,73 @@
+.BlogAchievies {
+  background-color: #fff;
+  text-align: center;
+}
+.BlogAchievies .contan {
+  width: 60%;
+  margin: auto;
+  line-height: 2;
+  color: #3b3a64;
+}
+.BlogAchievies .contan p {
+  font-size: 20px;
+}
+.BlogAchievies .items .item {
+  display: flex;
+  margin: 2rem 0;
+}
+.BlogAchievies .items .item .img {
+  background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-24.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  width: 290px;
+  height: 55vh;
+}
+.BlogAchievies .items .item .img.two {
+  background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-25.jpg);
+}
+.BlogAchievies .items .item .img.three {
+  background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-11.jpg);
+}
+.BlogAchievies .items .item .img.four {
+  background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-14.jpg);
+}
+.BlogAchievies .items .item .img.five {
+  background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-10.jpg);
+}
+.BlogAchievies .items .item .img.six {
+  background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/info-bg.jpg);
+}
+.BlogAchievies .items .item .text {
+  background-color: white;
+  border-radius: 5px;
+  height: 45vh;
+  margin: auto 0 auto -2rem;
+  width: 290px;
+  padding: 2rem;
+  text-align: left;
+  transition: all ease 0.4s;
+}
+.BlogAchievies .items .item .text:hover {
+  margin-left: -3rem;
+}
+.BlogAchievies .items .item .text h6 {
+  color: #7fc19c;
+}
+.BlogAchievies .items .item .text p {
+  color: #3b3a64;
+  font-size: 25px;
+}
+.BlogAchievies .items .item .text span {
+  display: block;
+  color: #c40000;
+}
+@media only screen and (max-width: 900px) {
+  .BlogAchievies .contan {
+    width: 100%;
+  }
+  .BlogAchievies .items .item,
+  .BlogAchievies .items {
+    display: block;
+  }
+}

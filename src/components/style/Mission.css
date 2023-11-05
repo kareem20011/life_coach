@@ -1,0 +1,42 @@
+.Mission{
+    border-top: 1px solid rgb(218, 218, 218);
+}
+.Mission .img{
+    background-image: url(https://avada.website/life-coach/wp-content/uploads/sites/175/2023/02/hero-5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.Mission .text{
+    margin: auto;
+    width: 30%;
+}
+.Mission h6{
+    color: #f16431;
+    margin: 0 0 2rem 0;
+}
+.Mission h1{
+    margin: 0 0 2rem 0;
+    font-size: 60px;
+}
+.Mission p{
+    margin: 0 0 2rem 0;
+    font-size: 25px;
+}
+@media only screen and (max-width: 490px) {
+    .Mission{
+        padding: 1rem;
+        margin: 0;
+    }
+    .Mission .text{
+        width: 100%;
+    }
+    .Mission h1{
+        margin: 0;
+        font-size: 30px;
+    }
+    .Mission p{
+        margin: 0;
+        font-size: 18px;
+    }
+}
