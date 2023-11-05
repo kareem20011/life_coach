@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/life_coach/static/css/main.b2fc4b00.css",
+    "main.js": "/life_coach/static/js/main.9e2390b9.js",
+    "static/js/787.414f4656.chunk.js": "/life_coach/static/js/787.414f4656.chunk.js",
+    "static/media/logo.svg": "/life_coach/static/media/logo.81c1196375f4379b093ca027277d7563.svg",
+    "static/media/sponsor-2.svg": "/life_coach/static/media/sponsor-2.fc8ff77953123f173daa9b50a78ebe7b.svg",
+    "static/media/sponsor-1.svg": "/life_coach/static/media/sponsor-1.d262df959e006b0691f16717c48ab4d6.svg",
+    "static/media/info-2-400x448.jpg": "/life_coach/static/media/info-2-400x448.1d4a44a2c5dbf1c605b5.jpg",
+    "static/media/sponsor-4.svg": "/life_coach/static/media/sponsor-4.a6e63f3eb54388c6dc0c37ff53b4827b.svg",
+    "static/media/sponsor-3.svg": "/life_coach/static/media/sponsor-3.ca49e53634a0220ff680ca12b7ca525c.svg",
+    "static/media/info-bg-2-400x449.jpg": "/life_coach/static/media/info-bg-2-400x449.5a4776fae298a3e135be.jpg",
+    "index.html": "/life_coach/index.html",
+    "main.b2fc4b00.css.map": "/life_coach/static/css/main.b2fc4b00.css.map",
+    "main.9e2390b9.js.map": "/life_coach/static/js/main.9e2390b9.js.map",
+    "787.414f4656.chunk.js.map": "/life_coach/static/js/787.414f4656.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2fc4b00.css",
+    "static/js/main.9e2390b9.js"
+  ]
+}
